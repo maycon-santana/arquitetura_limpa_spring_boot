@@ -11,7 +11,8 @@
 	<groupId>br.com.mayconinforgames</groupId>
 	<artifactId>desafio_picpay</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>desafio_picpay</name>
+    <packaging>pom</packaging>
+    <name>desafio_picpay</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -20,6 +21,12 @@
 	<developers>
 		<developer/>
 	</developers>
+	<modules>
+		<module>core</module>
+		<module>usecase</module>
+		<module>application</module>
+		<module>infrastructure</module>
+	</modules>
 	<scm>
 		<connection/>
 		<developerConnection/>
